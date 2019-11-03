@@ -17,5 +17,16 @@ I gradually intend to put more code and more from the knowledge i gain in here.
 If you have some idea that you want to share with me, be my guest :D
 And of course, be free to explore my works!
 
+-------------------------------------------//-----------------------------------------------
+### How to start the project in my machine?
+
+* 1 - Download the project in your PC;
+* 2 - Open with your favorite IDE (VSCode or other) or using cmd (for Windows) go to the root directory of the project;
+* 3 - With python3 installed in your computer, run the command:
+-   **python -m http.server 8081**
+-   Or with python2.7, this:
+-   **python -m SimpleHTTPServer 8081**
+
+
 ###### Developed using as a guide the documentation of ML5.JS 
 **https://ml5js.org/**
