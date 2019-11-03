@@ -1,5 +1,7 @@
 # **Machine Learning - Experiencing ML5.JS**
-## Some of my studies about the subject of Artificial Intelligence :)
+![ML5](https://github.com/marioalvesx/MachineLearning-Studies/blob/master/ImageClassification/images/logoML5.png)
+
+## Some of my studies about the subject of Artificial Intelligence and Machine Learning :)
 
 Here you can find some codes that i developed to study and learn more about AI.
 To do this, i use the ML5.JS library to recognition of digital images and real-time videos.
