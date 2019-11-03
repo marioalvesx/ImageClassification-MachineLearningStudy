@@ -26,6 +26,7 @@ And of course, be free to explore my works!
 -   **python -m http.server 8081**
 -   Or with python2.7, this:
 -   **python -m SimpleHTTPServer 8081**
+* 4 - Then, open up your web browser on the url: https://localhost:8081 Or any other port of your choice like: 3000, 3001... :)
 
 
 ###### Developed using as a guide the documentation of ML5.JS 
