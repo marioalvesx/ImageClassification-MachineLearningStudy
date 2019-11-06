@@ -7,6 +7,15 @@ function modelReady() {
     mobilenet.predict(gotResults);
 }
 
+function gotResults(error, results) {
+    if (error) {
+        console.log(error);
+    }else{
+        label = results[0].label;
+        mobilenet.predict(gotResults);
+    }
+}
+
 // Cria Canvas e carrega imagem
 function setup() {
     createCanvas(640, 550);
@@ -16,20 +25,10 @@ function setup() {
     mobilenet = ml5.imageClassifier('MobileNet', video, modelReady);
 }
 
-function gotResults(error, results) {
-    if (error) {
-        console.log(error);
-    }else{
-        console.log(results);
-        let label = results[0].label;
-        mobilenet.predict(gotResults);
-    }
-}
-
 function draw() {
-     background(0);
-     image(video, 0, 0);
-     fill(255);
-     textSize(32);
-     text(label, 10, height - 20);
+    background(0);
+    image(video, 0, 0);
+    fill(255);
+    textSize(32);
+    text(label, 10, height - 30);
 }

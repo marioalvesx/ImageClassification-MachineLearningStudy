@@ -10,7 +10,7 @@ function modelReady() {
 // Cria Canvas e carrega imagem
 function setup() {
     createCanvas(640, 500);
-    classifier = createImg('images/penguin.jpg', imageReady);
+    classifier = createImg('images/penguin1.jpg', imageReady);
     classifier.hide();
     background(0);
     mobilenet = ml5.imageClassifier('MobileNet', modelReady);
