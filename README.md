@@ -1,4 +1,4 @@
-# **Machine Learning - Experiencing ML5.JS**
+# **Machine Learning - Experiencing Proccessing and ML5.JS**
 ![ML5](https://github.com/marioalvesx/MachineLearning-Studies/blob/master/ImageClassification/images/logoML5.png)
 
 ## Some of my studies about the subject of Artificial Intelligence and Machine Learning :)
